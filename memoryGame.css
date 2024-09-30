@@ -1,0 +1,32 @@
+#grid{
+  display: flex;
+  height: 300px;
+  width: 400px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+img{
+  cursor: pointer;
+  transition: 0.5s;
+}
+img:hover{
+  transform: translate(5px,5px);
+}
+*{
+  font-family: 'Press Start 2P', cursive;
+}
+#message{
+  font-size: 20px;
+}
+h3{
+  font-size: 24px; 
+  padding: 10px;
+ 
+}
+#result{
+  color: green;
+  font-weight: bold;
+   font-size: 28px;
+}
